@@ -1,11 +1,68 @@
 body {
-  margin: 0;
-  font-family: Roboto;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  margin: 0px;
+  padding: 0px;
+  color: white;
+  font-family: 'Nunito', sans-serif;
+  background-color: black;
 }
 
+.main-container{
+  position: fixed;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    z-index: 10;
+
+}
 .container{
-  max-width: 60vw;
-  margin: 20px auto;
+  border-radius: 7px;
+  margin: 10vh 30vw;
+  background-color: rgba(0, 0, 0, 0.8);
+  min-height: 70vh;
+  padding: 3rem;
+}
+.search{
+  background: transparent;
+  color: black;
+}
+
+.city{
+  font-size: 2rem;
+}
+.card-1{
+  padding: 2rem;
+  min-width: 100%;
+}
+
+.icon{
+  max-height: 3rem;
+  max-width: auto;
+}
+.temperature{
+  font-size: 7rem;
+  font-weight: bolder;
+}
+.description{
+  letter-spacing: 4px;
+}
+.day{
+  font-size: 2rem;
+  font-weight: bold;
+  margin-top: 2rem ;
+  margin-bottom: 1rem;
+}
+.date{
+  font-size: 1.5rem;
+}
+.element{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 1rem;
+  font-size: 20px;
+}
+
+.weather-details{
+  font-family :'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }

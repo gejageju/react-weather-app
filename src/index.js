@@ -5,7 +5,7 @@ import App from './components/App.js';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-    <App />
+    <App className="main_container"/>
 );
 
 
