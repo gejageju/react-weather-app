@@ -1,4 +1,9 @@
-# Getting Started with Create React App
+# App Preview
+![image](https://github.com/gejageju/react-weather-app/assets/65595358/00dc7ee9-76e1-40df-ad55-08196be580c2)
+
+
+![image](https://github.com/gejageju/react-weather-app/assets/65595358/5dec7890-9aba-4c72-a351-16d7e5698ede)
+
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
