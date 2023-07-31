@@ -36,7 +36,7 @@ function App(){
 
 
   return (
-    <div className='main-container' style={{backgroundImage: `url(./react-weather-app/${bgimg}.jpg)`,backgroundSize:"cover"}}>
+    <div className='main-container' style={{backgroundImage: `url(/${bgimg}.jpg)`,backgroundSize:"cover"}}>
     <div className="container">
       <Search onSearchChange={onSearchChange}/>
        {weatherData? <WeatherCard data={weatherData} location={location}/>:<p></p> } 
